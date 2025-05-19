@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FicaForta"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditarUsuarioAdm"
+            android:exported="false" />
+        <activity
+            android:name=".UsuarioAdm"
+            android:exported="false" />
+        <activity
+            android:name=".UsuariosAdm"
+            android:exported="false" />
+        <activity
+            android:name=".EditarMaquinaAdm"
+            android:exported="false" />
+        <activity
+            android:name=".MaquinaAdm"
+            android:exported="false" />
+        <activity
+            android:name=".EditarExercicioAdm"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicioAdm"
+            android:exported="false" />
+        <activity
+            android:name=".EditarPerfilAdm"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilAdm"
+            android:exported="false" />
+        <activity
+            android:name=".MaquinasAdm"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciciosAdm"
+            android:exported="false" />
+        <activity
+            android:name=".HomeAdm"
+            android:exported="true" />
+        <activity
+            android:name=".ChatGemini"
+            android:exported="false" />
+        <activity
+            android:name=".MaquinaUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicioUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciciosUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".EditarPerfilUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".HomeUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarContaRedefinirSenha"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarContaCodigo"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarConta"
+            android:exported="false" />
+        <activity
+            android:name=".LoginMain"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
